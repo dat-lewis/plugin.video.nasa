@@ -39,6 +39,11 @@ STATIC_STREAMS = (
         'stream_url': ('http://sjc-uhls-proxy.ustream.tv/watch/'
                        'playlist.m3u8?cid=9408562'),
     }, {
+        'title': 'ISS HD Live Stream',
+        'logo': 'iss.jpg',
+        'stream_url': ('http://sjc-uhls-proxy.ustream.tv/watch/'
+                       'playlist.m3u8?cid=17074538'),
+    }, {
         'title': 'NASA TV - Educational Channel (HD)',
         'logo': 'edu.jpg',
         'stream_url': ('http://edu.infozen.cshls.lldns.net/infozen/edu/'
