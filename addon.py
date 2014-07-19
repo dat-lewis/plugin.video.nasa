@@ -29,22 +29,27 @@ STRINGS = {
 
 STATIC_STREAMS = (
     {
-        'title': 'NASA TV - Public Channel (HD)',
-        'logo': 'public.jpg',
-        'stream_url': ('http://public.infozen.cshls.lldns.net/infozen/public/'
-                       'public/public_1000.m3u8'),
-    }, {
         'title': 'ISS Live Stream',
         'logo': 'iss.jpg',
         'stream_url': ('http://sjc-uhls-proxy.ustream.tv/watch/'
                        'playlist.m3u8?cid=9408562'),
     }, {
-        'title': 'NASA TV - Educational Channel (HD)',
+         'title': 'ISS HD Earth Viewing Experiment',
+         'logo': 'iss.jpg',
+         'stream_url': ('http://sjc-uhls-proxy.ustream.tv/watch/'
+                        'playlist.m3u8?cid=17074538'),
+    }, {
+        'title': 'NASA TV: Public Channel',
+        'logo': 'public.png',
+        'stream_url': ('http://public.infozen.cshls.lldns.net/infozen/public/'
+                       'public/public_1000.m3u8'),
+    }, {
+        'title': 'NASA TV: Educational Channel',
         'logo': 'edu.jpg',
         'stream_url': ('http://edu.infozen.cshls.lldns.net/infozen/edu/'
                        'edu/edu_1000.m3u8'),
     }, {
-        'title': 'NASA TV - Media Channel (HD)',
+        'title': 'NASA TV: Media Channel',
         'logo': 'media.jpg',
         'stream_url': ('http://media.infozen.cshls.lldns.net/infozen/media/'
                        'media/media_1000.m3u8'),
